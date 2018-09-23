@@ -1,0 +1,27 @@
+{
+  "extends": ["eslint:recommended"],
+  "plugins": [],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "node": true
+  },
+  "globals": {},
+  "rules": {
+    "quotes": ["error", "single"],
+    "indent": ["error", "tab"],
+    "no-console": [
+      "warn",
+      {
+        "allow": ["warn", "error"]
+      }
+    ],
+    "arrow-parens": ["error", "always"]
+  }
+}
